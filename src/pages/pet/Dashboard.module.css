@@ -1,0 +1,64 @@
+.petlist_header{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.petlist_header a {
+    background-color: #16479d;
+    cursor: pointer;
+    color: #fff;
+    padding: .8rem;
+    border-radius: 5px;
+    border: 1px solid #16479d;
+}
+
+.petlist_header a:hover{
+    background-color: transparent;
+    color: #16479d;
+}
+
+.petlist_row{
+    border-bottom: 1px solid #16479d;
+    padding: 1.2rem;
+    margin: 1rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    width: 100%;
+}
+
+.petlist_row span{
+    min-width: 100px;
+}
+
+.actions{
+    display: flex;
+    gap: 1rem;
+    margin-left: auto;
+}
+
+.actions a ,.actions button,.conclude{
+    color: #fff;
+    padding: .8rem; 
+    border: none;
+    cursor: pointer;
+}
+.actions a {
+    background-color: #FFD400;
+}
+.actions button{
+    background-color: #333;
+}
+ .conclude{
+    background-color: #25b456;
+ }
+
+ /* myadoptions */
+ .contacts{
+   display: flex;
+   flex-direction: column;
+   gap: 1.2rem;
+ }

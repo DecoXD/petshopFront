@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 1.5rem;
+    background-color: #FFD400;
+    color: #16479d;
+}
+
+.navbar_logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar_logo img{
+    width: 5rem;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.navbar li,.navbar a {
+    color: #16479d;
+    cursor: pointer;
+    font-weight: bold;
+    padding: .5rem;
+    font-size: 1.6rem;
+}

@@ -1,0 +1,10 @@
+.footer{
+    border-top: 1px solid #4444441c;
+    background-color: #dfdada2d;
+    color: #444;
+    min-height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

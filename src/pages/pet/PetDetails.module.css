@@ -1,0 +1,34 @@
+.pet_details_container{
+    text-align: center;
+}
+
+.pet_details_container p {
+    margin-bottom: 1.2rem;
+}
+
+.pet_details_header{
+    margin-bottom: 3rem;
+}
+
+.pet_images{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    max-width: 100rem;
+    flex-wrap: wrap;
+
+}
+
+.pet_images img{
+max-height: 100px;
+margin-right: 1.2rem;
+}
+
+.pet_details_container button{
+    background-color: #16479d;
+    cursor: pointer;
+    color: #fff;
+    padding: .8rem;
+    border-radius: 5px;
+    border: 1px solid #16479d;
+}
